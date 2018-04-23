@@ -12,7 +12,7 @@ sub git_tag {
   return $version;
 }
 
-sub ACTION_code {
+sub ACTION_build {
   my $self = shift;
   $self->SUPER::ACTION_build;
 
